@@ -1,4 +1,4 @@
 var config = {
-    "title": "Adi Shankaracharya's Life - 101",
+    "title": "The Life of Adi Shankaracharya - A 101",
     "theme": "light"
 }
