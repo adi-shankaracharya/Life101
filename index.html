@@ -10,4 +10,16 @@
     <h1>The Life of Adi Shankaracharya - 101</h1>
     <p>He was swagalicious.</p>
 </body>
+<body>
+    <div id="story"></div>
+    <script src="./config.js"></script>
+    <script>
+        if (config.title) {
+            var titleText = document.createElement('h1');
+            titleText.innerText = config.title;
+            header.appendChild(splash);
+            header.appendChild(titleText);
+        }
+    </script>
+</body>
 </html>
