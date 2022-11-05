@@ -5,9 +5,10 @@
     <!-- Primary Meta Tags -->
     <!-- <title>The Life of Adi Shankaracharya</title>
     <meta name="title" content="A 101 on Adi Shankarya's Life."> -->
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.js'></script>
     <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://unpkg.com/scrollama"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
@@ -23,6 +24,390 @@
             document.getElementById("myBar").style.width = scrolled + "%";
         }
     </script>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+ v2.0 | 20110126
+ License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: 'PT Sans', sans-serif;
+          /*height:100%;*/
+        }
+
+
+        /* a, a:hover, a:visited {
+                 color: #0071bc;
+                 }
+                 */
+
+        a,
+        a>span {
+          position: relative;
+          color: inherit;
+          text-decoration: none;
+          line-height: 24px;
+        }
+
+        a:before,
+        a:after,
+        a>span:before,
+        a>span:after {
+          content: '';
+          position: absolute;
+          transition: transform .5s ease;
+        }
+
+        a:link {
+          color: a48c31;
+          background-color: transparent;
+          text-decoration: none;
+          font-weight:700;
+        }
+
+        a:visited {
+          color: a48c31;
+          background-color: transparent;
+          text-decoration: none;
+        }
+
+        a:hover {
+          color: a48c31;
+          background-color: transparent;
+        }
+        .hover-1 {
+          padding-bottom: 50px;
+          color: c04a2f;
+        }
+        .hover-1:before {
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 2px;
+          background: #492059;
+          transform: scaleX(0);
+          color: c04a2f;
+        }
+        .hover-1:hover:before {
+          transform: scaleX(1);
+          color: c04a2f;
+        }
+        #map {
+          top: 0;
+          height: 100vh;
+          width: 100vw;
+          position: fixed;
+          z-index: -5;
+          font-family: 'PT Sans Narrow', sans-serif;
+          
+        }
+
+
+                  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+#header p {
+  font-size: 22px;
+}
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+#header p {
+  font-size: 18px;
+}
+}
+        #header p {
+          margin-bottom: 2vh;
+          font-family: 'PT Sans Narrow', sans-serif;
+          /*font-size: 22px;*/
+         
+        }
+
+        /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+#header h3 {
+  font-size: 25px;
+  padding-bottom: 20px;
+   padding-left:6%;
+  padding-right:6%;
+
+}
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+#header h3 {
+  font-size: 18px;
+  padding-bottom: 15px;
+  padding-top:1%;
+ 
+
+}
+}
+        #header h3 {
+          margin-bottom: 1vh;
+          font-style: italic;
+          font-weight:400;
+          /*font-size: 1vw;*/
+        }
+        /* The progress container (grey background) */
+        .progress-container {
+          width: 100%;
+          height: 8px;
+          background: #e8dbc5;
+          position: fixed;
+        }
+
+        /* The progress bar (scroll indicator) */
+        .progress-bar {
+          height: 8px;
+          background: #b08157;
+          width: 0%;
+          top: 0;
+          position: fixed;
+        }
+        .content {
+          padding: 10px;
+        }
+        
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+#header h1 {
+  font-size: 58px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  padding-left:6%;
+  padding-right:6%;
+}
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+#header h1 {
+  font-size: 35px;
+  font-weight:700;
+  padding-bottom: 7px;
+  padding-top: 40px;
+  padding-right:2%;
+  padding-left:2%;
+}
+}
+
+
+
+        #header {
+          /*width: 100%;*/
+          /*height: 100vh;*/ 
+          
+          padding-top: 2vh;
+          padding-bottom: 0vh;
+          text-align: center;
+          text-height: 25px;
+          /*font-size: 2vw;*/
+          font-color: #0e0e0e;
+          /*box-sizing: border-box;*/
+          background-color: #ffffff;
+          /*background-blend-mode: multiply;*/
+          background-image: url("images/ep_naturalwhite1.png");
+          background-repeat: repeat;
+          
+          /* border: 25px solid #B88846;
+                 border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25; */
+        }
+        #footer {
+          width: 100%;
+          min-height: 3vh;
+          padding-top: 16px;
+          padding-bottom: 16px;
+          text-align: center;
+          line-height: 25px;
+          font-size: 19px;
+          font-family: 'PT Sans Narrow', sans-serif;
+          background-image: url("images/ep_naturalwhite1.png");
+          background-repeat: repeat;
+        }
+        #features {
+          padding-top: 5vh;
+          padding-bottom: 5vh;
+          z-index: 100;
+        }
+        .center {
+          width: 80%;
+          margin: 20% 10% 0% 10%;
+        }
+        .lefty {
+          width: 33vw;
+          margin-left: 5vw;
+        }
+        .righty {
+          width: 30vw;
+          margin-left: 68vw;
+          margin-top: 20%;
+          
+        }
+        .light {
+          color: #0e0e0e;
+          background-color: #ffffff;
+        }
+        .dark {
+          color: #fafafa;
+          background-color: #444;
+        }
+        .step {
+          padding-bottom: 50vh;
+      
+          opacity: 1;
+          text-align: left;
+          
+         /* margin: 25px 50px 75px 100px;*/
+          
+        }
+        .step.active {
+          opacity: 1;
+          text-align: left;
+
+        }
+
+        /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+.step img {
+max-width: 40vh;
+}
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+.step img {
+  max-width: 40vh;
+}
+}
+        .step img {
+          display: block;
+          width: 100%;
+          height: auto;
+          
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          /*max-width: 80%;*/
+          padding-bottom: 2vh;
+          padding-top:1vh;
+        }
+
+
+                  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+.step h3 {
+  font-size: 28px;
+  line-height: 28px;
+  padding-bottom: 8px;
+  font-weight: 700;
+}
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+.step h3{
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 6px;
+}
+}
+        .h3 {
+          margin-block-start: 20px;
+          margin-block-end: 5px;
+          margin-inline-start: 5px;
+          margin-inline-end: 50px;
+        }
+
+        /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+.step p {
+  font-size: 22px;
+  line-height: 28px;
+}
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+.step p{
+  font-size: 18px;
+  line-height: 24px;
+}
+}
+        .step p {
+          padding-top: 0px;
+        }
+        .step div {
+          padding: 18px 15px;
+          line-height: 29px;
+          /*font-size: 21px;*/
+          font-family: 'PT Sans Narrow', sans-serif;
+          opacity: 1;
+          border: 25px solid #B88846;
+          background-image: url("images/ep_naturalwhite1.png");
+          background-repeat: repeat;
+          border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+          
+        }
+        @media (max-width: 750px) {
+          #features {
+            width: 90vw;
+            margin: 0 auto;
+          }
+        }
+    </style>
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -137,51 +522,47 @@ gtag('config', 'G-DMWS6KRPY4');
             story.appendChild(header);
         }
        
-    //    config.chapters.forEach((record, idx) => {
-    //        var container = document.createElement('div');
-    //        var chapter = document.createElement('div');
+       config.chapters.forEach((record, idx) => {
+           var container = document.createElement('div');
+           var chapter = document.createElement('div');
            
            
-    //        if (record.image) {
-    //            var image = new Image();  
-    //            image.src = record.image;  
-    //            chapter.appendChild(image);
-       
-               
-               
-       
-    //        }
+           if (record.image) {
+               var image = new Image();  
+               image.src = record.image;  
+               chapter.appendChild(image);
+           }
        
        
-    //        if (record.title) {
-    //            var title = document.createElement('h3');
-    //            title.innerText = record.title;
-    //            chapter.appendChild(title);
+           if (record.title) {
+               var title = document.createElement('h3');
+               title.innerText = record.title;
+               chapter.appendChild(title);
                
                
-    //        }
+           }
            
        
            
-    //        if (record.description) {
-    //            var story = document.createElement('p');
-    //            story.innerHTML = record.description;
-    //            chapter.appendChild(story);
-    //        }
+           if (record.description) {
+               var story = document.createElement('p');
+               story.innerHTML = record.description;
+               chapter.appendChild(story);
+           }
        
-    //        container.setAttribute('id', record.id);
+           container.setAttribute('id', record.id);
        
-    //        container.classList.add('step');
-    //        if (idx === 0) {
-    //            container.classList.add('active');
-    //        }
+           container.classList.add('step');
+           if (idx === 0) {
+               container.classList.add('active');
+           }
        
-    //        chapter.classList.add(config.theme);
-    //        container.appendChild(chapter);
-    //        features.appendChild(container);
-    //    });
+           chapter.classList.add(config.theme);
+           container.appendChild(chapter);
+           features.appendChild(container);
+       });
        
-    //    story.appendChild(features);
+       story.appendChild(features);
        
         var footer = document.createElement('div');
     //    var social1 = document.createElement('img');
