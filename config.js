@@ -4,7 +4,7 @@ var config = {
     "showMarkers": false,
     "theme": "light",
     "alignment": "right",
-    "title": "The Life of Adi Shankaracharya - A 101",
+    "title": "The Life of Adi Shankaracharya - A 102",
     "chapters": [
         {
             "id": "chapter_0",
