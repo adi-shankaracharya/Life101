@@ -4,13 +4,13 @@ var config = {
     "showMarkers": false,
     "theme": "light",
     "alignment": "right",
-    "title": "The Life of Adi Shankaracharya - A 102",
+    "title": "Shankaracharya - A Life Sketch",
     "chapters": [
         {
             "id": "chapter_0",
-            "title": "BIRTH",
+            "title": "A JOURNEY",
             "alignment": "center",
-            "description": "Shankaracharya was born in the town of <b>Kaladi</b>.",
+            "description": "Shankaracharya is so cool.",
             "location": {
                 "center": {
                 "lon": 75.81537,
@@ -19,6 +19,22 @@ var config = {
                 "zoom": 2.66,
                 "speed": 0.4,
                 "pitch": 0,
+                "bearing": 0
+            }
+        },
+        {
+            "id": "chapter_1",
+            "title": "BIRTH",
+            "alignment": "center",
+            "description": "Shankaracharya was born in the town of <b>Kaladi</b>.",
+            "location": {
+                "center": {
+                "lon": 76.4468,
+                "lat": 10.1710
+                },
+                "zoom": 5,
+                "speed": 0.4,
+                "pitch": 50,
                 "bearing": 0
             }
         }
