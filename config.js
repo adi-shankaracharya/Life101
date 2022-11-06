@@ -32,7 +32,7 @@ var config = {
                 "lon": 76.4468,
                 "lat": 10.1710
                 },
-                "zoom": 5,
+                "zoom": 7,
                 "speed": 0.4,
                 "pitch": 50,
                 "bearing": 0
