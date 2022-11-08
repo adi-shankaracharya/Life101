@@ -13,14 +13,26 @@ var config = {
             "description": "Shankaracharya is so cool.",
             "location": {
                 "center": {
-                "lon": 75.81537,
-                "lat": 31.16460
+                    "lon": 75.81537,
+                    "lat": 31.16460
                 },
                 "zoom": 2.66,
                 "speed": 0.4,
                 "pitch": 0,
                 "bearing": 0
-            }
+            },
+            "onChapterEnter": [
+                {
+                    "layer": "kaladi",
+                    "opacity": 0
+                }
+            ],
+            "onChapterExit": [
+                {
+                    "layer": "kaladi",
+                    "opacity": 1
+                }
+            ]
         },
         {
             "id": "chapter_1",
@@ -29,8 +41,8 @@ var config = {
             "description": "Shankaracharya was born in the town of <b>Kaladi</b>.",
             "location": {
                 "center": {
-                "lon": 76.4468,
-                "lat": 10.1710
+                    "lon": 76.4468,
+                    "lat": 10.1710
                 },
                 "zoom": 9,
                 "speed": 0.4,
@@ -39,11 +51,11 @@ var config = {
             },
             "onChapterEnter": [
                 {
-                   "layer": "kaladi",
-                   "opacity": 1
+                    "layer": "kaladi",
+                    "opacity": 1
                 }
-             ],
-             "onChapterExit": []
+            ],
+            "onChapterExit": []
         }
     ]
 }
