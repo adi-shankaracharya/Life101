@@ -20,19 +20,7 @@ var config = {
                 "speed": 0.4,
                 "pitch": 0,
                 "bearing": 0
-            },
-            "onChapterEnter": [
-                {
-                    "layer": "kaladi",
-                    "opacity": 0
-                }
-            ],
-            "onChapterExit": [
-                {
-                    "layer": "kaladi",
-                    "opacity": 1
-                }
-            ]
+            }
         },
         {
             "id": "chapter_1",
