@@ -43,7 +43,40 @@ var config = {
                     "opacity": 1
                 }
             ],
-            "onChapterExit": []
+            "onChapterExit": [
+                {
+                    "layer": "kaladi",
+                    "opacity": 0
+                }
+            ]
+        },
+        {
+            "id": "chapter_2",
+            "title": "EDUCATION",
+            "alignment": "center",
+            "description": "Shankaracharya went to Omkareshwar to study under Gaudapadacharya.",
+            "location": {
+                "center": {
+                    "lon": 76.148883,
+                    "lat": 22.239961
+                },
+                "zoom": 9,
+                "speed": 0.4,
+                "pitch": 50,
+                "bearing": 20
+            },
+            "onChapterEnter": [
+                {
+                    "layer": "omkareshwar",
+                    "opacity": 1
+                }
+            ],
+            "onChapterExit": [
+                {
+                    "layer": "omkareshwar",
+                    "opacity": 0
+                }
+            ]
         }
     ]
 }
