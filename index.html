@@ -8,6 +8,7 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.js'></script>
     <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <link rel="stylesheet" href="./textStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://unpkg.com/scrollama"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -242,6 +243,8 @@
             font-family: 'PT Sans Narrow', sans-serif;
 
         }
+
+        
 
 
         /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
@@ -506,7 +509,7 @@
             padding-top: 0px;
         }
 
-        .step div {
+        .x div {
             padding: 18px 15px;
             line-height: 29px;
             /*font-size: 21px;*/
@@ -573,7 +576,7 @@
 
 
         var story = document.getElementById('story');
-        var features = document.createElement('div');
+        var features = document.createElement('article');
         features.classList.add(alignments[config.alignment]);
         features.setAttribute('id', 'features');
 
@@ -611,8 +614,8 @@
         }
 
         config.chapters.forEach((record, idx) => {
-            var container = document.createElement('div');
-            var chapter = document.createElement('div');
+            var container = document.createElement('article');
+            var chapter = document.createElement('article');
 
             if (record.image) {
                 var image = new Image();
