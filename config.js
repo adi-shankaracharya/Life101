@@ -54,7 +54,7 @@ var config = {
             "id": "chapter_2",
             "title": "EDUCATION",
             "alignment": "center",
-            "description": "Shankaracharya went to Omkareshwar to study under Gaudapadacharya.",
+            "description": "His mother felt that Shankaracharya should be married and pursue his spiritual pursuits as a married man. This was the tradition that the Brahmins of the time had upheld so people don’t wander away from society but rather contribute to it by being a part of it. Shankaracharya had such a strong pull to dedicate his life solely for spiritual pursuits that he was able to convince his mom and began his journey. Promising her he’ll complete her last rites when the time comes.",
             "location": {
                 "center": {
                     "lon": 76.148883,
