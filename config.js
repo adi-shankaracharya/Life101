@@ -4,6 +4,7 @@ var config = {
     "showMarkers": false,
     "theme": "light",
     "alignment": "right",
+    "footer": "References:<br>1. Adi Shankaracharya- Hinduism's Greatest Thinker by Pavan K. Varma<br>2. ",
     "title": "Shankaracharya - A Life Sketch",
     "chapters": [
         {
@@ -43,12 +44,7 @@ var config = {
                     "opacity": 1
                 }
             ],
-            "onChapterExit": [
-                {
-                    "layer": "kaladi",
-                    "opacity": 1
-                }
-            ]
+            "onChapterExit": []
         },
         {
             "id": "chapter_2",
@@ -74,7 +70,7 @@ var config = {
             "onChapterExit": [
                 {
                     "layer": "kaladi",
-                    "opacity": 1
+                    "opacity": 0
                 }
             ]
         },
@@ -114,7 +110,7 @@ var config = {
             "id": "chapter_4",
             "title": "A GURU",
             "alignment": "center",
-            "description": "Shankaracharya travels to Omkareshwar to meet Govindapada who becomes his guru for a couple years.\n\nThe way they met: The guru asks Shankaracharya, who are you? Shankaracharya answers by saying “I am neither this… nor that…” and is accepted as a <i>shishya</i>.",
+            "description": "Shankaracharya travels to Omkareshwar to meet Govindapada who becomes his <i>guru</i> for a couple years.<br><br>The way they met: The guru asks Shankaracharya, who are you? Shankaracharya answers by saying “I am neither this… nor that…” and is accepted as a <i>shishya</i>.<br><br>It is here where Shankaracharya dives deep into Advaita philosophy. A school of thought whose central tenant is that everything is one and the eternal power itself.",
             "location": {
                 "center": {
                     "lon": 76.148883,
@@ -134,7 +130,7 @@ var config = {
             "onChapterExit": [
                 {
                     "layer": "omkareshwar",
-                    "opacity": 1
+                    "opacity": 0
                 }
             ]
         },
@@ -174,7 +170,7 @@ var config = {
             "id": "chapter_6",
             "title": "VARANASI",
             "alignment": "center",
-            "description": "Known as the spiritual and cultural capital of India, Shankaracharya received permission from his guru to travel to Varanasi (by foot!). Here, he wrote some of his greatest works: commentaries on the Gita, Upanishads, and Brahma Sutras.",
+            "description": "Known as the spiritual and cultural capital of India, Shankaracharya received permission from his <i>guru</i> to travel to Varanasi (by foot!). Here, he wrote some of his greatest works: commentaries on the Gita, Upanishads, and Brahma Sutras.",
             "location": {
                 "center": {
                     "lon": 83.001412,
@@ -194,7 +190,7 @@ var config = {
             "onChapterExit": [
                 {
                     "layer": "varanasi",
-                    "opacity": 1
+                    "opacity": 0
                 }
             ]
         },
@@ -202,7 +198,7 @@ var config = {
             "id": "chapter_7",
             "title": "THE CHANDAAL",
             "alignment": "center",
-            "description": "While in Varanasi, legend has it that Shankaracharya was once walking around in an alleyway and came across a chandaal (outcaste). The disciples of Shankaracharya asked the <i>chandaal</i> to move out of the way, and the <i>Chandaal</i> replied: you guys are preachers of <i>“advaita”</i> philosophy and yet you differentiate me as a chandaal and him as a brahmin? Shankaracharya is taken aback by his response and says anyone that realizes that is truly his guru! Goes on to compose the <i<Manisha Panchakam</i>, representative of this experience.",
+            "description": "While in Varanasi, legend has it that Shankaracharya was once walking around in an alleyway and came across a <i>chandaal</i> (outcaste). The disciples of Shankaracharya asked the <i>chandaal</i> to move out of the way, and the <i>Chandaal</i> replied: you guys are preachers of <i>“advaita”</i> philosophy and yet you differentiate me as a <i>chandaal</i> and him as a brahmin? Shankaracharya is taken aback by his response and says anyone that realizes that is truly his <i>guru</i>! Goes on to compose the <i<Manisha Panchakam</i>, representative of this experience.",
             "location": {
                 "center": {
                     "lon": 83.001412,
@@ -230,7 +226,7 @@ var config = {
             "id": "chapter_8",
             "title": "THE GREAT DEBATE",
             "alignment": "center",
-            "description": "One of the most intriguing debates of the time was one that he had with Mandan Mishra. Mandan Mishra was also an extremely intellectual, spiritual person who had dedicated his life to taking his knowledge to people. Their debate was not out of competition or spite, but two students of the world curious about which way of life was better to reach a higher ideal. That’s why it was determined that whoever won the debate, would join the other in the others’ way of life towards spiritual pursuits.",
+            "description": "One of the most intriguing debates of the time was one that he had with Mandan Mishra. Mandan Mishra was also an extremely intellectual, spiritual person who had dedicated his life to taking his knowledge to people. He lived in a home with his wife. The debate was not out of competition or spite, but two students of the world curious about which way of life was better to reach a higher ideal: the path of a <i>sanyaasi</i> (an ascetic) or the path of a <i>grihasthi</i> (a householder). That’s why it was determined that whoever won the debate, would join the other in the others’ way of life towards spiritual pursuits.",
             "location": {
                 "center": {
                     "lon": 80.365862,
@@ -258,7 +254,7 @@ var config = {
             "id": "chapter_9",
             "title": "TRANSFORMING LIVES",
             "alignment": "center",
-            "description": "With his fame now spreading wider than ever, Shankaracharya continued his travels with the motive to spread these thoughts to the common man. In Maharashtra it is said he touched the sect of Mallari Brahmins who performed primitive animal worship. He engaged in discussions with Kapalika sect who practiced human sacrifice.",
+            "description": "With his fame now spreading wider than ever, Shankaracharya continued his travels with the motive to spread these thoughts to the common man. In Maharashtra it is said he spent a lot of time with the sect of Mallari Brahmins who performed primitive animal worship. He also engaged in discussions with Kapalika sect who practiced human sacrifice. He explained what they were doing and their live slowly changed.",
             "location": {
                 "center": {
                     "lon": 76.291236,
@@ -286,7 +282,7 @@ var config = {
             "id": "chapter_10",
             "title": "THE DUTIFUL SON",
             "alignment": "center",
-            "description": "Either because he wanted to meet her or because Shankaracharya gets news that his mom has passed away, he decides to go meet his mother. At one of the most emotional moments of his life, he finds her bedridden breathing her last breaths. Even though he was a sanyaasi, he performed his duties as a son.",
+            "description": "Either because he wanted to meet her or because he gets news that his mom is severely ill, Shankaracharya decides to go meet his mother. At one of the most emotional moments of his life, he finds her bedridden breathing her last breaths. Even though he was a <i>sanyaasi</i>, he performed his duties as a son and completed the ceremonies for her death.",
             "location": {
                 "center": {
                     "lon": 76.4468,
@@ -318,13 +314,13 @@ var config = {
             "id": "chapter_11",
             "title": "ESTABLISHMENTS OF MATHAS",
             "alignment": "center",
-            "description": "Shankaracharya then returned to Shringeri and with his followers traveled across India establishing mathas along the way. The purpose of these mathas are/were three fold:\n\t1.To serve as thought proliferating centers\n\tTo provide education for those interested in pursuing deeper studies of Vedic thoughts\n\t3.To provide social service to the people of the area",
+            "description": "Shankaracharya then returned to Shringeri and with his followers traveled across India establishing <i>mathas</i> along the way. The purpose of these <i>mathas</i> are/were three fold:<br>   1. To serve as thought proliferating centers<br>   2. To provide education for those interested in pursuing deeper studies of Vedic thoughts<br>   3. To provide social service to the people of the area",
             "location": {
                 "center": {
                     "lon": 79.218408,
                     "lat": 22.464033
                 },
-                "zoom": 4.5,
+                "zoom": 4,
                 "speed": 0.4,
                 "pitch": 0,
                 "bearing": 0
@@ -338,7 +334,7 @@ var config = {
             "onChapterExit": [
                 {
                     "layer": "mathas",
-                    "opacity": 1
+                    "opacity": 0
                 }
             ]
         },
@@ -352,7 +348,7 @@ var config = {
                     "lon": 79.218408,
                     "lat": 22.464033
                 },
-                "zoom": 4.5,
+                "zoom": 4,
                 "speed": 0.4,
                 "pitch": 0,
                 "bearing": 0
@@ -366,7 +362,7 @@ var config = {
             "onChapterExit": [
                 {
                     "layer": "mathas",
-                    "opacity": 1
+                    "opacity": 0
                 }
             ]
         },
@@ -380,7 +376,7 @@ var config = {
                     "lon": 79.218408,
                     "lat": 22.464033
                 },
-                "zoom": 4.5,
+                "zoom": 4,
                 "speed": 0.4,
                 "pitch": 0,
                 "bearing": 0
