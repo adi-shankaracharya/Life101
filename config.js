@@ -63,7 +63,7 @@ var config = {
                 "zoom": 9,
                 "speed": 0.4,
                 "pitch": 50,
-                "bearing": 20
+                "bearing": 0
             },
             "onChapterEnter": [
                 {
@@ -85,18 +85,22 @@ var config = {
             "description": "His mother felt that Shankaracharya should be married and pursue his spiritual pursuits as a married man. This was the tradition that the Brahmins of the time had upheld so people don’t wander away from society but rather contribute to it by being a part of it. Shankaracharya had such a strong pull to dedicate his life solely for spiritual pursuits that he was able to convince his mom and began his journey. Promising her he’ll complete her last rites when the time comes.",
             "location": {
                 "center": {
-                    "lon": 76.148883,
-                    "lat": 22.239961
+                    "lon": 76.4468,
+                    "lat": 10.1710
                 },
                 "zoom": 9,
                 "speed": 0.4,
                 "pitch": 50,
-                "bearing": 20
+                "bearing": 0
             },
             "onChapterEnter": [
                 {
                     "layer": "kaladi",
                     "opacity": 1
+                },
+                {
+                    "layer": "omkareshwar",
+                    "opacity": 0
                 }
             ],
             "onChapterExit": [
@@ -153,6 +157,10 @@ var config = {
                 {
                     "layer": "omkareshwar",
                     "opacity": 1
+                },
+                {
+                    "layer": "varanasi",
+                    "opacity": 0
                 }
             ],
             "onChapterExit": [
@@ -293,6 +301,10 @@ var config = {
                 {
                     "layer": "kaladi",
                     "opacity": 1
+                },
+                {
+                    "layer": "mathas",
+                    "opacity": 0
                 }
             ],
             "onChapterExit": [
@@ -312,10 +324,10 @@ var config = {
                     "lon": 79.218408,
                     "lat": 22.464033
                 },
-                "zoom": 3,
+                "zoom": 4.5,
                 "speed": 0.4,
-                "pitch": 50,
-                "bearing": 20
+                "pitch": 0,
+                "bearing": 0
             },
             "onChapterEnter": [
                 {
@@ -340,10 +352,10 @@ var config = {
                     "lon": 79.218408,
                     "lat": 22.464033
                 },
-                "zoom": 3,
+                "zoom": 4.5,
                 "speed": 0.4,
-                "pitch": 50,
-                "bearing": 20
+                "pitch": 0,
+                "bearing": 0
             },
             "onChapterEnter": [
                 {
@@ -368,10 +380,10 @@ var config = {
                     "lon": 79.218408,
                     "lat": 22.464033
                 },
-                "zoom": 3,
+                "zoom": 4.5,
                 "speed": 0.4,
-                "pitch": 50,
-                "bearing": 20
+                "pitch": 0,
+                "bearing": 0
             },
             "onChapterEnter": [
                 {
@@ -382,7 +394,7 @@ var config = {
             "onChapterExit": [
                 {
                     "layer": "mathas",
-                    "opacity": 1
+                    "opacity": 0
                 }
             ]
         }
