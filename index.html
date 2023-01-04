@@ -657,29 +657,17 @@
         //    var social2 = document.createElement('img');
         //    social2.src = 'images/twitter.svg';
 
-        //    if (config.footer) {
-        //        var footerText = document.createElement('p');
-        //        footerText.innerHTML = config.footer;
-        //        footer.appendChild(footerText);
+        if (config.footer) {
+            var footerText = document.createElement('p');
+            footerText.innerHTML = config.footer;
+            footer.appendChild(footerText);
+        }
 
-        //        //footer.appendChild(social1);
-
-
-
-        //        //footer.appendChild(social2);
-
-
-
-
-        //    }
-
-        //    if (footer.innerText.length > 0) {
-        //        footer.classList.add(config.theme);
-        //        footer.setAttribute('id', 'footer');
-        //        story.appendChild(footer);
-
-
-        //    }
+        if (footer.innerText.length > 0) {
+            footer.classList.add(config.theme);
+            footer.setAttribute('id', 'footer');
+            story.appendChild(footer);
+        }
 
         mapboxgl.accessToken = config.accessToken;
         const transformRequest = (url) => {
