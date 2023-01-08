@@ -27,7 +27,7 @@ var config = {
             "id": "chapter_1",
             "title": "BIRTH",
             "alignment": "center",
-            "description": "As legend has it, Lord Shankar comes in the dream of Aryamba and asks her: would you prefer to give birth to a fool who would live long or be blessed with a genius who would die young? She chose the latter! And thus Shankaracharya was born to distinguished Brahmins: Shivaguru (father) and Aryamba (mother), in the town of <b>Kaladi</b>.",
+            "description": "As legend has it, Lord Shankar comes in the dream of Aryamba and asks her: would you prefer to give birth to a fool who would live long or be blessed with a <b>genius who would die young</b>? She chose the latter! And thus Shankaracharya was born to distinguished Brahmins: Shivaguru (father) and Aryamba (mother), in the town of <b>Kaladi</b>.",
             "location": {
                 "center": {
                     "lon": 76.4468,
@@ -76,9 +76,9 @@ var config = {
         },
         {
             "id": "chapter_3",
-            "title": "TO MARRY? OR NOT TO MARRY?",
+            "title": "COMPLETE DEDICATION",
             "alignment": "center",
-            "description": "His mother felt that Shankaracharya should be married and pursue his spiritual pursuits as a married man. This was the tradition that the Brahmins of the time had upheld so people don’t wander away from society but rather contribute to it by being a part of it. Shankaracharya had such a strong pull to dedicate his life solely for spiritual pursuits that he was able to convince his mom and began his journey. Promising her he’ll complete her last rites when the time comes.",
+            "description": "His mother felt that Shankaracharya should be married and pursue his spiritual path as a married man. This was the tradition that the Brahmins of the time had upheld so people don’t wander away from society but rather contribute to it by being a part of it. <br><br>Shankaracharya had such a strong pull to dedicate his life solely for spiritual pursuits that he was able to convince his mom and began his journey. Promising her he’ll complete her last rites when the time comes.",
             "location": {
                 "center": {
                     "lon": 76.4468,
@@ -110,7 +110,7 @@ var config = {
             "id": "chapter_4",
             "title": "A GURU",
             "alignment": "center",
-            "description": "Shankaracharya travels to Omkareshwar to meet Govindapada who becomes his <i>guru</i> for a couple years.<br><br>The way they met: The guru asks Shankaracharya, who are you? Shankaracharya answers by saying “I am neither this… nor that…” and is accepted as a <i>shishya</i>.<br><br>It is here where Shankaracharya dives deep into Advaita philosophy. A school of thought whose central tenant is that everything is one and the eternal power itself.",
+            "description": "Shankaracharya travels to <b>Omkareshwar</b> to meet Govindapada who becomes his <i>guru</i> for a couple years.<br><br>The way they met: The guru asks Shankaracharya, <i>who are you?</i> Shankaracharya answers by saying <i>“I am neither this… nor that… I am the eternal power itself!”</i> and so he accepted as a <i>shishya</i>.<br><br>It is here where Shankaracharya dives deep into Advaita philosophy. A school of thought whose central tenant is that everything is one and the eternal power itself.",
             "location": {
                 "center": {
                     "lon": 76.148883,
@@ -138,7 +138,7 @@ var config = {
             "id": "chapter_5",
             "title": "RUMBLINGS OF ACTION",
             "alignment": "center",
-            "description": "As Shankaracharya learned about Advaita philosophy, he also learned about selfless service. Living in a time where Buddhist thought (which had been degraded to inaction and pessimism at the time) was prevalent, Shankaracharya realized the need for advocating an action-oriented mindset.",
+            "description": "As Shankaracharya learned about Advaita philosophy, he also learned about <b>selfless service</b>. Living in a time where Buddhist thought (which had been degraded to inaction and pessimism at the time) was prevalent, Shankaracharya realized the need for advocating an action-oriented mindset.",
             "location": {
                 "center": {
                     "lon": 76.148883,
@@ -170,7 +170,7 @@ var config = {
             "id": "chapter_6",
             "title": "VARANASI",
             "alignment": "center",
-            "description": "Known as the spiritual and cultural capital of India, Shankaracharya received permission from his <i>guru</i> to travel to Varanasi (by foot!). Here, he wrote some of his greatest works: commentaries on the Gita, Upanishads, and Brahma Sutras.",
+            "description": "Known as the <b>spiritual and cultural capital of India</b>, Shankaracharya received permission from his <i>guru</i> to travel to Varanasi (by foot!). Here, he wrote some of his greatest works: commentaries on the <i>Gita</i>, <i>Upanishads</i>, and <i>Brahma Sutras</i>.",
             "location": {
                 "center": {
                     "lon": 83.001412,
@@ -198,7 +198,7 @@ var config = {
             "id": "chapter_7",
             "title": "THE CHANDAAL",
             "alignment": "center",
-            "description": "While in Varanasi, legend has it that Shankaracharya was once walking around in an alleyway and came across a <i>chandaal</i> (outcaste). The disciples of Shankaracharya asked the <i>chandaal</i> to move out of the way, and the <i>Chandaal</i> replied: you guys are preachers of <i>“advaita”</i> philosophy and yet you differentiate me as a <i>chandaal</i> and him as a brahmin? Shankaracharya is taken aback by his response and says anyone that realizes that is truly his <i>guru</i>! Goes on to compose the <i<Manisha Panchakam</i>, representative of this experience.",
+            "description": "While in Varanasi, legend has it that Shankaracharya was once walking around in an alleyway and came across a <i>chandaal</i> (outcaste). The disciples of Shankaracharya asked the <i>chandaal</i> to move out of the way, and the <i>Chandaal</i> replied: <b>you guys are preachers of <i>“advaita”</i> philosophy and yet you differentiate me as a <i>chandaal</i> and him as a brahmin?</b> Shankaracharya is taken aback by his response and says anyone that realizes that is truly his <i>guru</i>! Goes on to compose the <i>Manisha Panchakam</i>, representative of this experience.",
             "location": {
                 "center": {
                     "lon": 83.001412,
@@ -226,7 +226,7 @@ var config = {
             "id": "chapter_8",
             "title": "THE GREAT DEBATE",
             "alignment": "center",
-            "description": "One of the most intriguing debates of the time was one that he had with Mandan Mishra. Mandan Mishra was also an extremely intellectual, spiritual person who had dedicated his life to taking his knowledge to people. He lived in a home with his wife. The debate was not out of competition or spite, but two students of the world curious about which way of life was better to reach a higher ideal: the path of a <i>sanyaasi</i> (an ascetic) or the path of a <i>grihasthi</i> (a householder). That’s why it was determined that whoever won the debate, would join the other in the others’ way of life towards spiritual pursuits.",
+            "description": "One of the most intriguing debates of the time was one that he had with <b>Mandan Mishra</b>. Mandan Mishra was also an extremely intellectual, spiritual person who had dedicated his life to taking his knowledge to people. He lived in a home with his wife. The debate was not out of competition or spite, but rather of two students of the world curious about <b>which way of life was better to reach a higher ideal:</b> the path of a <b><i>sanyaasi</i> (an ascetic)</b> or the path of a <b><i>grihasthi</i> (a householder)</b>. That’s why it was determined that whoever won the debate, would join the other in the others’ way of life towards spiritual pursuits.",
             "location": {
                 "center": {
                     "lon": 80.365862,
@@ -254,7 +254,7 @@ var config = {
             "id": "chapter_9",
             "title": "TRANSFORMING LIVES",
             "alignment": "center",
-            "description": "With his fame now spreading wider than ever, Shankaracharya continued his travels with the motive to spread these thoughts to the common man. In Maharashtra it is said he spent a lot of time with the sect of Mallari Brahmins who performed primitive animal worship. He also engaged in discussions with Kapalika sect who practiced human sacrifice. He explained what they were doing and their live slowly changed.",
+            "description": "With his fame now spreading wider than ever, Shankaracharya continued his travels with the motive to spread these thoughts to the common man. In Maharashtra it is said he spent a lot of time with the sect of <i>Mallari Brahmins</i> who performed primitive animal worship. He also engaged in discussions with <i>Kapalika</i> sect who practiced human sacrifice. He explained what they were doing and their live slowly changed.",
             "location": {
                 "center": {
                     "lon": 76.291236,
@@ -314,7 +314,7 @@ var config = {
             "id": "chapter_11",
             "title": "ESTABLISHMENTS OF MATHAS",
             "alignment": "center",
-            "description": "Shankaracharya then returned to Shringeri and with his followers traveled across India establishing <i>mathas</i> along the way. The purpose of these <i>mathas</i> are/were three fold:<br>   1. To serve as thought proliferating centers<br>   2. To provide education for those interested in pursuing deeper studies of Vedic thoughts<br>   3. To provide social service to the people of the area",
+            "description": "Shankaracharya then returned to <b>Shringeri</b> and with his followers traveled across India establishing <i>mathas</i> along the way. The purpose of these <i>mathas</i> are/were three fold:<br>   1. To serve as thought proliferating centers<br>   2. To provide education for those interested in pursuing deeper studies of Vedic thoughts<br>   3. To provide social service to the people of the area",
             "location": {
                 "center": {
                     "lon": 79.218408,
@@ -342,7 +342,7 @@ var config = {
             "id": "chapter_12",
             "title": "UNITING THE MASSES",
             "alignment": "center",
-            "description": "As Shankaracharya was able to learn about the various ways of people throughout his travels, he realized that people were separated more than ever under the name of religion. In order to prevent this from happening more, he presented the concept of panchaayatan puja: he took 5 deities that were revered in all parts of India – Ganesha, Shiva, Vishnu, Surya, and Mahadevi and said these are the deities we can all worship together in order to become better human beings.",
+            "description": "As Shankaracharya was able to learn about the various ways of people throughout his travels, he realized that people were separated more than ever under the name of religion. In order to prevent this from happening more, he presented the concept of <b><i>panchaayatan puja</i><b>: he took 5 deities that were revered in all parts of India – <b><i>Ganesha, Shiva, Vishnu, Surya, and Durga</i></b> and said these are the deities we can all worship together in order to become better human beings.",
             "location": {
                 "center": {
                     "lon": 79.218408,
