@@ -110,7 +110,7 @@ var config = {
             "id": "chapter_4",
             "title": "A GURU",
             "alignment": "center",
-            "description": "Shankaracharya travels to <b>Omkareshwar</b> to meet Govindapada who becomes his <i>guru</i> for a couple years.<br><br>The way they met: The guru asks Shankaracharya, <i>who are you?</i> Shankaracharya answers by saying <i>“I am neither this… nor that… I am the eternal power itself!”</i> and so he accepted as a <i>shishya</i>.<br><br>It is here where Shankaracharya dives deep into Advaita philosophy. A school of thought whose central tenant is that everything is one and the eternal power itself.",
+            "description": "Shankaracharya travels to <b>Omkareshwar</b> to meet Govindapada who becomes his <i>guru</i> for a couple years.<br><br>The way they met: The guru asks Shankaracharya, <i>who are you?</i> Shankaracharya answers by saying <i>“I am neither this… nor that… I am the eternal power itself!”</i> and so he is accepted as a <i>shishya</i>.<br><br>It is here where Shankaracharya dives deep into <b><i>Advaita</i></b> philosophy. A school of thought whose central tenant is that everything is one and the eternal power itself.",
             "location": {
                 "center": {
                     "lon": 76.148883,
@@ -342,7 +342,7 @@ var config = {
             "id": "chapter_12",
             "title": "UNITING THE MASSES",
             "alignment": "center",
-            "description": "As Shankaracharya was able to learn about the various ways of people throughout his travels, he realized that people were separated more than ever under the name of religion. In order to prevent this from happening more, he presented the concept of <b><i>panchaayatan puja</i><b>: he took 5 deities that were revered in all parts of India – <b><i>Ganesha, Shiva, Vishnu, Surya, and Durga</i></b> and said these are the deities we can all worship together in order to become better human beings.",
+            "description": "As Shankaracharya was able to learn about the various ways of people throughout his travels, he realized that people were separated more than ever under the name of religion. In order to prevent this from happening more, he presented the concept of <b><i>panchaayatan puja</i></b>: he took 5 deities that were revered in all parts of India – <b><i>Ganesha, Shiva, Vishnu, Surya, and Durga</i></b> and said these are the deities we can all worship together in order to become better human beings.",
             "location": {
                 "center": {
                     "lon": 79.218408,
