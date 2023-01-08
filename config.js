@@ -4,7 +4,7 @@ var config = {
     "showMarkers": false,
     "theme": "light",
     "alignment": "right",
-    "footer": "References:<br>1. Adi Shankaracharya- Hinduism's Greatest Thinker by Pavan K. Varma<br>2. ",
+    "footer": "References:<br>1. Adi Shankaracharya - Hinduism's Greatest Thinker by Pavan K. Varma<br>2. The Mind of Shankaracharya by Y. Keshava Menon",
     "title": "Shankaracharya - A Life Sketch",
     "chapters": [
         {
